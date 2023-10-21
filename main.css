@@ -1,0 +1,307 @@
+@font-face {
+    font-family: Poppins;
+    src: url(Poppins-1/Poppins-Regular.ttf);
+}
+
+.wrapper {
+    margin: 0;
+    padding: 0;
+    color: #564E4E;
+
+}
+
+.header {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    align-items: center;
+
+}
+
+.mainTitle {
+    position: absolute;
+    top: 100px;
+    left: 335px;
+}
+
+.subtitle {
+    position: absolute;
+    top: 240px;
+    left: 345px;
+}
+
+.logoHeader {
+    position: absolute;
+    margin-left: 15px;
+    margin-top: 15px;
+}
+
+.content {
+    font-family: 'Poppins';
+    padding: 20px
+}
+
+body {
+    margin: 0;
+}
+
+#BigBlock1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.block1 {
+    flex-grow: 1;
+    margin: 0 5px;
+}
+
+.imgB1 {
+    width: 25%;
+    height: 25%;
+}
+
+.BlockContent {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-grow: 1;
+}
+
+.BigBlock2-1 {
+    flex-grow: 1;
+    width: 50%;
+    align-items: center;
+    margin-right: 70px;
+}
+
+.BlockContent2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+#product {
+    flex-grow: 1;
+    width: 25%;
+    margin-right: 15px;
+}
+
+.imgProduct {
+    width: 90%;
+    height: 90%;
+}
+
+.imgHeader {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.BigBlock4 {
+    background: linear-gradient(45deg, #f7f1f1, #f5e6de);
+    margin-top: 80px
+}
+
+.inform4 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.mng {
+    width: 30%
+}
+
+
+
+.BigBlock5 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.imgBlock5 {
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    margin: 0 10px 0 0;
+}
+
+.title06 {
+    width: 60%;
+    align-items: center;
+}
+
+#imgBlock5 {
+    max-width: 100%;
+}
+
+.footer {
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 40px;
+    margin-bottom: 100px;
+}
+
+.footerBlock {
+    padding: 10px;
+    background-color: black;
+    margin: 0;
+}
+
+.listFooter {
+    flex-grow: 1;
+}
+
+.informBlock5 {
+    color: white;
+}
+
+#moreinfo {
+    color: #F79489;
+    margin: 30px 0 0 0;
+}
+
+/* --Mobile--*/
+@media only screen and (max-width: 46.1875em) {
+    .content {
+        align-items: center;
+        padding: 10px;
+    }
+
+
+    .mainTitle {
+
+        top: 75px;
+        left: 150px;
+    }
+
+    .imgTitle {
+        width: 229px;
+        height: 54px;
+    }
+
+    .subtitle {
+        width: 292px;
+        height: 72px;
+        top: 115px;
+        left: 130px;
+    }
+
+    .img5 {
+        margin: 0;
+    }
+
+    #BigBlock1 {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .title01 {
+        display: none;
+    }
+
+    .BlockContent {
+        align-items: center;
+        padding: 10px;
+        flex-direction: column-reverse;
+    }
+
+    .BigBlock2-1 {
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .img5 {
+        margin: 10px;
+
+    }
+
+    .block1 {
+        width: 80%;
+        text-align: center;
+        margin: 20px 0;
+    }
+
+    .title01 {
+        width: 100%;
+    }
+
+    .BlockContent2 {
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-template-rows: auto auto
+    }
+
+    .BigBlock3 {
+        align-items: center;
+        margin-top: 60px;
+    }
+
+    .inform4 {
+        padding: 15px;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .mng {
+        width: 100%;
+    }
+
+
+    #imgBlock4 {
+        margin: 50px 0 10px 0;
+    }
+
+    #imgBlock4 {
+        margin: 50px 0;
+    }
+
+    .title05 {
+        width: 100%;
+    }
+
+    .imgBlock5 {
+        width: 100%;
+        margin: 0;
+    }
+
+    .pBlock5 {
+        width: 100%;
+    }
+
+    .BigBlock5 {
+        flex-direction: column;
+        padding: 10px;
+
+    }
+
+    .title06 {
+
+        width: 100%;
+    }
+
+    .emailBar {
+        width: 100%;
+    }
+
+    .footer {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .listFooter {
+        padding: 10px;
+        width: 100%;
+    }
+}
